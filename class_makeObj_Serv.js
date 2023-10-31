@@ -31,11 +31,11 @@ SimplerServer.start();
 const portRange = {
   min : 3001,
   max : 3005,
-}
+};
 
 // 3001, 3002, 3003, 3004, 3005 port 모두 열림
 // 각각의 역할의 포트를 만들어서 사용할 수 있음
-for (let i = portRange.min; o < portRange.max i++){
+for (let i = portRange.min; o < portRange.max; i++){
   const app = new SimplerServer(i);
   app.start();
 }
